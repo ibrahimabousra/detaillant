@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "tabs-gueygou-react-native",
-    "slug": "tabs-gueygou-react-native",
+    "name": "gueygou",
+    "slug": "gueygou",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -16,13 +16,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.detaillant.gueygou"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.detaillant.gueygou"
     },
     "web": {
       "bundler": "metro",
@@ -33,7 +35,8 @@
       "expo-router"
     ],
     "experiments": {
-      "typedRoutes": true
+      "typedRoutes": true,
+      "tsconfigPaths": true
     }
   }
 }
