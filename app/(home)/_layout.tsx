@@ -34,7 +34,7 @@ export default function TabLayout() {
         tabBarIcon: ()=>(
           <FontAwesomeIcon icon={faMoneyBill} />
         ),
-        tabBarLabel: "Ventes"
+        tabBarLabel: "Depenses"
       }}/>
     </Tab.Navigator>
   );
