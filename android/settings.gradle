@@ -1,4 +1,4 @@
-rootProject.name = 'tabs-gueygou-react-native'
+rootProject.name = 'gueygou'
 
 dependencyResolutionManagement {
   versionCatalogs {

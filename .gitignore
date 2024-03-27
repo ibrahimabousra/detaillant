@@ -9,10 +9,10 @@ dist/
 web-build/
 
 # Andoird
-./andoird
+andoird/
 
 # IOS
-./ios
+ios/
 # Native
 *.orig.*
 *.jks
